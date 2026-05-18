@@ -2,34 +2,13 @@
   color-scheme: dark;
   font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
 }
-
-body {
-  margin: 0;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: radial-gradient(circle at top, #2f315c 0%, #121225 55%, #090911 100%);
-  color: #f4f5ff;
+body { margin: 0; background: #11152a; color: #eef2ff; }
+.layout { width: min(1140px, 95vw); margin: 14px auto; text-align: center; }
+canvas { border: 2px solid #6e7bf5; border-radius: 8px; max-width: 100%; height: auto; background: #1c2444; }
+.log {
+  margin-top: 8px; text-align: left; min-height: 96px; max-height: 200px; overflow: auto;
+  padding: 8px; border: 1px solid #3d4cad; border-radius: 8px; background: #0f1430; font-size: 14px;
 }
-
-.layout {
-  text-align: center;
-}
-
-h1 {
-  margin-bottom: 0.35rem;
-  letter-spacing: 0.04em;
-}
-
-p {
-  margin-top: 0;
-  color: #c9cbff;
-}
-
-canvas {
-  border: 2px solid #7f88ff;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #5e66ff77;
-  max-width: min(960px, 95vw);
-  height: auto;
-}
+.turn { color: #ffd37d; }
+.ally { color: #9ce4ff; }
+.enemy { color: #ff9da4; }
